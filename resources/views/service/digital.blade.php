@@ -1,10 +1,10 @@
 @extends('layouts.app')
 @section('content')
-    <section class="hero-wrap hero-wrap-2" style="background-image: url({{ asset('public/assets/images/image_1.jpg')}});" data-stellar-background-ratio="0.5">
+    <section class="hero-wrap hero-wrap-2" style="background-image: url({{ asset('assets/images/image_1.jpg')}});" data-stellar-background-ratio="0.5">
       <div class="overlay"></div>
       <div class="container">
         <div class="row no-gutters slider-text align-items-end justify-content-center">
-          <div class="col-md-9 ftco-animate mb-5 text-center">
+          <div class="col-md-9  mb-5 text-center">
             <p class="breadcrumbs mb-0"><span class="mr-2"><a href="index.html">Service </a></span></p>
             <h1 class="mb-0 bread">Digital Market Intelligence</h1>
           </div>
@@ -14,7 +14,7 @@
     <section class="ftco-section ftco-degree-bg">
       <div class="container">
         <div class="row pb-5">
-          <div class="col-lg-12 ftco-animate">
+          <div class="col-lg-12 ">
             <div class="row pb-5">
               <div class="col-md-7 col-sm=12">
                 <p>At this very moment, the digital marketplace holds an inexhaustible demand for your expertise.</p>
@@ -22,11 +22,11 @@
                 <p>This is a tall order – but with the right tools and techniques, it has never been easier.</p>
               </div>
               <div class="col-md-5 col-sm=12">
-                <img src="{{ asset('public/assets/images/digital1.png')}}" alt="" class="img-fluid service-img">
+                <img src="{{ asset('assets/images/digital1.png')}}" alt="" class="img-fluid service-img">
               </div>
             </div>
             <div class="row justify-content-center pb-2 mx-2">
-              <div class="col-md-10 heading-section text-center ftco-animate">
+              <div class="col-md-10 heading-section text-center ">
                 <span class="subheading">Digital Market Intelligence</span>
                 <h3>What Is Digital Market Intelligence and How Does It Transform Your Business?</h3>
               </div>
@@ -44,7 +44,7 @@
               </div>
             </div>
             <div class="row justify-content-center pb-2 mx-2">
-              <div class="col-md-10 heading-section text-center ftco-animate">
+              <div class="col-md-10 heading-section text-center ">
                 <span class="subheading">Digital Market Intelligence</span>
                 <h3>360 BizVue Offers You an Unprecedented Digital Market Intelligence Solution</h3>
               </div>
@@ -59,7 +59,7 @@
             </div>
             <div class="row pb-4">
               <div class="col-md-5 col-sm=12">
-                <img src="{{ asset('public/assets/images/digital2.png')}}" alt="" class="img-fluid service-img">
+                <img src="{{ asset('assets/images/digital2.png')}}" alt="" class="img-fluid service-img">
               </div>
               <div class="col-md-7 col-sm=12">
                 <p>For example, you can learn:</p>
@@ -70,7 +70,7 @@
               </div>
             </div>
             <div class="row justify-content-center pb-2 mx-2">
-              <div class="col-md-10 heading-section text-center ftco-animate">
+              <div class="col-md-10 heading-section text-center ">
                 <span class="subheading">Digital Market Intelligence</span>
                 <h3>360 BizVue Supports You With Planning and Implementation You Need to Succeed</h3>
               </div>
@@ -85,7 +85,7 @@
           </div>
         </div>
         @include('layouts/digital')
-        <button class="form-control btn-info">Submit</button>
+        <button id="btn_submit" class="form-control btn-info">Submit</button>
       </div>
     </section>
 @endsection

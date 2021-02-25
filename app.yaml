@@ -1,4 +1,8 @@
-runtime: php72
+runtime: php73
+
+handlers:
+  - url: /assets
+    static_dir: public/assets
 
 env_variables:
   ## Put production environment variables here.

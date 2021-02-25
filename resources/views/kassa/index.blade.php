@@ -1,10 +1,10 @@
 @extends('layouts.app')
 @section('content')
-    <section class="hero-wrap hero-wrap-2" style="background-image: url({{ asset('public/assets/images/image_1.jpg')}});" data-stellar-background-ratio="0.5">
+    <section class="hero-wrap hero-wrap-2" style="background-image: url({{ asset('assets/images/image_1.jpg')}});" data-stellar-background-ratio="0.5">
       <div class="overlay"></div>
       <div class="container">
         <div class="row no-gutters slider-text align-items-end justify-content-center">
-          <div class="col-md-9 ftco-animate mb-5 text-center">
+          <div class="col-md-9  mb-5 text-center">
             <h1 class="mb-0 bread">Why we created Kassa Me</h1>
           </div>
         </div>
@@ -20,11 +20,11 @@
             <p>A cost sharing discount program is a strategic way to decrease or eliminate credit card payment processing fees and interchange-plus fees. You do it by raising prices across the board, then offering a matching discount on cash payments, or add a set percentage at the time of sale to all card transactions.</p>
           </div>
           <div class="col-md-5 col-sm=12">
-            <img src="{{ asset('public/assets/images/kassa1.png')}}" alt="" class="img-fluid service-img">
+            <img src="{{ asset('assets/images/kassa1.png')}}" alt="" class="img-fluid service-img">
           </div>
         </div>
         <div class="row justify-content-center pb-2 mx-2">
-          <div class="col-md-10 heading-section text-center ftco-animate">
+          <div class="col-md-10 heading-section text-center ">
             <span class="subheading">Why we created Kassa Me</span>
             <h3>Capture Opportunities With Actionable Insights Built on Fresh Market Data</h3>
           </div>
@@ -44,7 +44,7 @@
           </div>
         </div>
         <div class="row justify-content-center pb-2 mx-2">
-          <div class="col-md-10 heading-section text-center ftco-animate">
+          <div class="col-md-10 heading-section text-center ">
             <span class="subheading">Why we created Kassa Me</span>
             <h3>3 Ways Kassa Me’s AI-Driven Business Services Will Change How You Operate</h3>
           </div>
@@ -55,10 +55,10 @@
           </div>
         </div>
         <div class="row d-flex pt-4">
-          <div class="col-md-4 d-flex ftco-animate">
+          <div class="col-md-4 d-flex ">
             <div class="blog-entry justify-content-end">
               <div class="text text-center">
-                <a href="blog-single.html" class="block-20 img" style="background-image: url({{ asset('public/assets/images/kassa2.jpg') }})">
+                <a href="blog-single.html" class="block-20 img" style="background-image: url({{ asset('assets/images/kassa2.jpg') }})">
                 </a>
                 <div class="meta text-center mb-2 d-flex align-items-center justify-content-center">
                   <div>
@@ -71,10 +71,10 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4 d-flex ftco-animate">
+          <div class="col-md-4 d-flex ">
             <div class="blog-entry justify-content-end">
               <div class="text text-center">
-                <a href="blog-single.html" class="block-20 img" style="background-image: url({{ asset('public/assets/images/kassa3.jpg') }})">
+                <a href="blog-single.html" class="block-20 img" style="background-image: url({{ asset('assets/images/kassa3.jpg') }})">
                 </a>
                 <div class="meta text-center mb-2 d-flex align-items-center justify-content-center">
                   <div>
@@ -87,10 +87,10 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4 d-flex ftco-animate">
+          <div class="col-md-4 d-flex ">
             <div class="blog-entry justify-content-end">
               <div class="text text-center">
-                <a href="blog-single.html" class="block-20 img" style="background-image: url({{ asset('public/assets/images/kassa4.jpg') }})">
+                <a href="blog-single.html" class="block-20 img" style="background-image: url({{ asset('assets/images/kassa4.jpg') }})">
                 </a>
                 <div class="meta text-center mb-2 d-flex align-items-center justify-content-center">
                   <div>

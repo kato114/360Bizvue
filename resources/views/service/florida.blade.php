@@ -1,10 +1,10 @@
 @extends('layouts.app')
 @section('content')
-    <section class="hero-wrap hero-wrap-2" style="background-image: url({{ asset('public/assets/images/image_1.jpg')}});" data-stellar-background-ratio="0.5">
+    <section class="hero-wrap hero-wrap-2" style="background-image: url({{ asset('assets/images/image_1.jpg')}});" data-stellar-background-ratio="0.5">
       <div class="overlay"></div>
       <div class="container">
         <div class="row no-gutters slider-text align-items-end justify-content-center">
-          <div class="col-md-9 ftco-animate mb-5 text-center">
+          <div class="col-md-9  mb-5 text-center">
             <p class="breadcrumbs mb-0"><span class="mr-2"><a href="index.html">Service </a></span></p>
             <h1 class="mb-0 bread">Digital Market Intelligence for Florida Attorneys</h1>
           </div>
@@ -15,14 +15,14 @@
       <div class="container">
         <h5 class="text-center">360 BIZVUE is an approved member benefit provider for The Florida Bar.</h5>
         <div class="row">
-          <div class="col-lg-12 ftco-animate">
+          <div class="col-lg-12 ">
             <div class="row pb-5">
               <div class="col-md-7 col-sm=12">
                 <p>Many of your future clients are first-time legal consumers. They have never been faced with the need to work with an attorney. They may not know how to start looking for legal advice – or even how to express the precise situation they are in.</p>
                 <p>In traditional digital marketing, queries from prospective customers that aren’t couched in the right jargon are, in a word, invisible. Without this sophisticated terminology, search marketing fails to surface queries from Floridians who urgently need counsel.</p>
               </div>
               <div class="col-md-5 col-sm=12">
-                <img src="{{ asset('public/assets/images/florida.png')}}" alt="" class="img-fluid service-img">
+                <img src="{{ asset('assets/images/florida.png')}}" alt="" class="img-fluid service-img">
               </div>
               <div class="col-md-12">
                 <p>This inhibits law firm growth in two ways:</p>
@@ -32,7 +32,7 @@
               </div>
             </div>
             <div class="row justify-content-center pb-2 mx-2">
-              <div class="col-md-10 heading-section text-center ftco-animate">
+              <div class="col-md-10 heading-section text-center ">
                 <span class="subheading">Digital Market Intelligence for Florida Attorneys</span>
                 <h3>360 BizVue digital market intelligence changes all that.</h3>
               </div>
@@ -58,7 +58,7 @@
         </div>
         <hr class="w-100">
         @include('layouts/florida')
-        <button class="form-control btn-info">Submit</button>
+        <button id="btn_submit" class="form-control btn-info">Submit</button>
       </div>
     </section>
 @endsection

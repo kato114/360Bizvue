@@ -21,8 +21,15 @@ Route::get('/service/discount', 'ServiceController@discount')->name('service.dis
 Route::get('/kassa', 'KassaController@index')->name('kassa');
 Route::get('/about', 'AboutController@index')->name('about');
 Route::get('/contact', 'ContactController@index')->name('contact');
+Route::get('/precise-seo-branding-florida-bar-member-benefit', 'ServiceController@attorney')->name('attorney');
 
 Route::get('/es', 'HomeController@es_index')->name('es_home');
 Route::get('/es/service/digital', 'ServiceController@es_digital')->name('service.es_digital');
 Route::get('/es/service/discount', 'ServiceController@es_discount')->name('service.es_discount');
 Route::get('/es/contact', 'ContactController@es_index')->name('es_contact');
+
+Route::post('/service/send_email', 'ServiceController@send_email')->name('service.send_email');
+
+Route::any('/3572100-2/content-marketing', 'OtherController@contentmarketing')->name('other.contentmarketing');
+
+

@@ -1,10 +1,10 @@
 @extends('layouts.app')
 @section('content')
-    <section class="hero-wrap hero-wrap-2" style="background-image: url({{ asset('public/assets/images/image_1.jpg')}});" data-stellar-background-ratio="0.5">
+    <section class="hero-wrap hero-wrap-2" style="background-image: url({{ asset('assets/images/image_1.jpg')}});" data-stellar-background-ratio="0.5">
       <div class="overlay"></div>
       <div class="container">
         <div class="row no-gutters slider-text align-items-end justify-content-center">
-          <div class="col-md-9 ftco-animate mb-5 text-center">
+          <div class="col-md-9  mb-5 text-center">
             <h1 class="mb-0 bread">Transaction Data + AI Analytics = Our Differentiation</h1>
           </div>
         </div>
@@ -13,8 +13,8 @@
     <section class="ftco-degree-bg">
       <div class="container">
         <div class="row pb-5">
-            <div class="col-md-6 img img-3 d-flex justify-content-center align-items-center" style="background-image: url({{ asset('public/assets/images/about-2') }}.jpg);"> </div>
-            <div class="col-md-6 wrap-about px-md-5 ftco-animate pt-5 bg-light">
+            <div class="col-md-6 img img-3 d-flex justify-content-center align-items-center" style="background-image: url({{ asset('assets/images/about-2') }}.jpg);"> </div>
+            <div class="col-md-6 wrap-about px-md-5  pt-5 bg-light">
                 <div class="heading-section">
                     <p>Never before has it been possible to pinpoint the needs of your market with the precision we have today.</p>
                     <p>Your customers, leads, and prospects frequently express their needs in the digital world. Through search behavior, current buying, and social media, they tell you what they need, what benefits they hope to gain, and how much they are prepared to pay. In this way, each person in your neighborhood and all around the country provides their very own blueprint for a successful sale and a long-term relationship.</p>
@@ -24,7 +24,7 @@
             </div>
         </div>
         <div class="row justify-content-center pb-2">
-          <div class="col-md-8 heading-section text-center ftco-animate">
+          <div class="col-md-8 heading-section text-center ">
             <span class="subheading">About US</span>
             <h3>360 BizVue Means the Shortest Path Ever from “Customer Desire” to “Customer Delight.”</h3>
           </div>
@@ -41,7 +41,7 @@
     <section class="ftco-section bg-light">
       <div class="container">
         <div class="row justify-content-center pb-5">
-          <div class="col-md-10 heading-section text-center ftco-animate">
+          <div class="col-md-10 heading-section text-center ">
             <span class="subheading">Services</span>
             <h2>Here’s how it works</h2>
           </div>
@@ -51,7 +51,7 @@
         <div class="row no-gutters">
           <div class="col-md-6">
             <div class="services-wrap d-flex">
-              <div class="img" style="background-image: url({{ asset('public/assets/images/about-6.jpg') }})"></div>
+              <div class="img" style="background-image: url({{ asset('assets/images/about-6.jpg') }})"></div>
               <div class="text">
                 <h5>Attract Your Ideal Customers (First-Time Buyers)</h5>
                 <p>Using your existing user data and other information about your business, our predictive AI engine learns about your market position, strengths, and capabilities. It applies this in a tireless, 24-hour search for key market movers, such as changes in search or buyer behavior, that create opportunities for you.</p>
@@ -60,7 +60,7 @@
           </div>
           <div class="col-md-6">
             <div class="services-wrap d-flex">
-              <div class="img" style="background-image: url({{ asset('public/assets/images/about-7.jpg') }})"></div>
+              <div class="img" style="background-image: url({{ asset('assets/images/about-7.jpg') }})"></div>
               <div class="text">
                 <h5>Delight Your Ideal Customers (First-Time Buyers)</h5>
                 <p>Using the stream of vetted, actionable data from our platform, your digital brand comes alive through targeted messaging on your website, app, and social media. A user experience built around touchless transfer turns your leads into first-time buyers who feel heard and understood by your company.</p>
@@ -70,7 +70,7 @@
 
           <div class="col-md-6">
             <div class="services-wrap d-flex">
-              <div class="img order-md-last" style="background-image: url({{ asset('public/assets/images/about-4.jpg') }})"></div>
+              <div class="img order-md-last" style="background-image: url({{ asset('assets/images/about-4.jpg') }})"></div>
               <div class="text">
                 <h5>Retain Your Ideal Customers (Repeat Buyers)</h5>
                 <p>Competitive intelligence is the next unbeatable advantage in the 360 BizVue arsenal. Through our curated storehouse of accurate, timely data on thousands of competitors, we find areas where your performance falls below the industry average and tell you exactly how to improve to retain your customers.</p>
@@ -79,7 +79,7 @@
           </div>
           <div class="col-md-6">
             <div class="services-wrap d-flex">
-              <div class="img order-md-last" style="background-image: url({{ asset('public/assets/images/about-5.jpg') }})"></div>
+              <div class="img order-md-last" style="background-image: url({{ asset('assets/images/about-5.jpg') }})"></div>
               <div class="text">
                 <h5>Optimize Processes and Repeat</h5>
                 <p>Our system can use your data to determine how key market changes may impact every aspect of your business. You’ll be equipped with intelligent insights to optimize product development, operations, R&D, supply chain, and more. You can extend your use of the platform to any of these areas as desired.</p>

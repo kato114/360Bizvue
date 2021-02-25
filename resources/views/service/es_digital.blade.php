@@ -1,10 +1,10 @@
 @extends('layouts.es_app')
 @section('content')
-    <section class="hero-wrap hero-wrap-2" style="background-image: url({{ asset('public/assets/images/image_1.jpg')}});" data-stellar-background-ratio="0.5">
+    <section class="hero-wrap hero-wrap-2" style="background-image: url({{ asset('assets/images/image_1.jpg')}});" data-stellar-background-ratio="0.5">
       <div class="overlay"></div>
       <div class="container">
         <div class="row no-gutters slider-text align-items-end justify-content-center">
-          <div class="col-md-9 ftco-animate mb-5 text-center">
+          <div class="col-md-9  mb-5 text-center">
             <p class="breadcrumbs mb-0"><span class="mr-2"><a href="index.html">Servicio</a></span></p>
             <h1 class="mb-0 bread">Inteligencia de Mercadeo Digital</h1>
           </div>
@@ -14,7 +14,7 @@
     <section class="ftco-section ftco-degree-bg">
       <div class="container">
         <div class="row pb-5">
-          <div class="col-lg-12 ftco-animate">
+          <div class="col-lg-12 ">
             <div class="row pb-5">
               <div class="col-md-7 col-sm=12">
                 <p>En este momento, el mercado digital demanda incansablemente su experiencia.</p>
@@ -22,11 +22,11 @@
                 <p>Esta es una tarea difícil, pero con las herramientas y técnicas adecuadas, nunca ha sido tan fácil.</p>
               </div>
               <div class="col-md-5 col-sm=12">
-                <img src="{{ asset('public/assets/images/digital1.png')}}" alt="" class="img-fluid service-img">
+                <img src="{{ asset('assets/images/digital1.png')}}" alt="" class="img-fluid service-img">
               </div>
             </div>
             <div class="row justify-content-center pb-2 mx-2">
-              <div class="col-md-10 heading-section text-center ftco-animate">
+              <div class="col-md-10 heading-section text-center ">
                 <span class="subheading">Inteligencia de Mercadeo Digital</span>
                 <h3>¿En qué consiste la inteligencia del mercado digital y cómo transforma su negocio?</h3>
               </div>
@@ -44,7 +44,7 @@
               </div>
             </div>
             <div class="row justify-content-center pb-2 mx-2">
-              <div class="col-md-10 heading-section text-center ftco-animate">
+              <div class="col-md-10 heading-section text-center ">
                 <span class="subheading">Inteligencia de Mercadeo Digital</span>
                 <h3>360 BizVue le ofrece una solución inteligente para el mercado digital sin precedentes</h3>
               </div>
@@ -59,7 +59,7 @@
             </div>
             <div class="row pb-4">
               <div class="col-md-5 col-sm=12">
-                <img src="{{ asset('public/assets/images/digital2.png')}}" alt="" class="img-fluid service-img">
+                <img src="{{ asset('assets/images/digital2.png')}}" alt="" class="img-fluid service-img">
               </div>
               <div class="col-md-7 col-sm=12">
                 <p>Por ejemplo, puede aprender:</p>
@@ -70,7 +70,7 @@
               </div>
             </div>
             <div class="row justify-content-center pb-2 mx-2">
-              <div class="col-md-10 heading-section text-center ftco-animate">
+              <div class="col-md-10 heading-section text-center ">
                 <span class="subheading">Inteligencia de Mercadeo Digital</span>
                 <h3>360 BizVue le apoya con la planificación y la implementación que necesita para que tenga éxito</h3>
               </div>
@@ -85,7 +85,7 @@
           </div>
         </div>
         @include('layouts/es_digital')
-        <button class="form-control btn-info">Submit</button>
+        <button id="btn_submit" class="form-control btn-info">Submit</button>
       </div>
     </section>
 @endsection
